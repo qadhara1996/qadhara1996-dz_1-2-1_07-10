@@ -1,0 +1,78 @@
+*,
+*::after,
+*::before{
+    padding: 0px;
+    margin: 0px;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(—Pngtree—dirty\ vintage\ paper\ texture\ premium_1377886.jpg);
+    background-size: cover;
+}
+
+.wrapper{
+    max-width: 1000px;
+    background-color:antiquewhite;
+    padding: 20px;
+    margin: 0px auto 0px auto;
+    
+}
+
+img{
+    width: 100%;
+}
+
+header{
+    display: inline-block;
+    margin: 10px;
+}
+
+nav{
+    display: inline-block;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    text-align: center;
+    background-color:rgb(231, 213, 190);
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(41, 35, 35);
+    text-align: center;
+    padding: 5px;
+    display: inline-block;
+}
+
+li:hover{
+    background-color:rgb(255, 240, 222);
+}
+
+h1{
+    margin: 30px;
+    text-align: center;
+}
+
+h2{
+    margin: 35px 0px 15px 0px;
+    text-align: center;
+}
+
+.article{
+    margin: 20px 0px 10px 0px;
+}
+
+.back_up{
+    background-color: rgb(231, 213, 190);
+    margin: 15px 0 0 0 ;
+}
+
+.back_up:hover{
+    background-color:rgb(255, 240, 222)
+}
